@@ -1,0 +1,13 @@
+# path info
+MNN_root: /home/zeezou/MNN
+project_root: /home/zeezou/MNN/MobileDeviceKernelBench
+onnx_data_root: /home/zeezou/MNN/MobileDeviceKernelBench/source/onnx_dataset_test/model_60
+mnn_data_root: /home/zeezou/MNN/MobileDeviceKernelBench/source/mnn_models/model_60
+op_pymodel_foler_path: /home/zeezou/MNN/MobileDeviceKernelBench/source/mnn_dataset_test/model_60
+backup_folder: /home/zeezou/MNN/MobileDeviceKernelBench/backop_ops
+
+# LLM info
+api_source: openrouter
+LLM_response_folder: /home/zeezou/MNN/MobileDeviceKernelBench/source/mnn_dataset_test/response_60
+cfg_LLM: gpt-5 #gemini-2.5-flash, gpt-5, claude-sonnet-4.5, llama-3.1-405b-instruct,qwen3-235b-a22b-thinking-2507,deepseek-r1-0528
+response_mod: read # read or gen

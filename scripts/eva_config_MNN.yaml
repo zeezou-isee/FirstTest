@@ -1,0 +1,16 @@
+# path info
+MNN_root: /home/zeezou/MNN
+project_root: /home/zeezou/MNN/MobileDeviceKernelBench
+onnx_data_root: /home/zeezou/MNN/MobileDeviceKernelBench/source/onnx_dataset_test/model_60
+mnn_data_root: /home/zeezou/MNN/MobileDeviceKernelBench/source/mnn_models_original/model_60 # different from others
+backup_folder: /home/zeezou/MNN/MobileDeviceKernelBench/backop_ops
+
+# LLM info
+api_source: openrouter
+LLM_response_folder: /home/zeezou/MNN/MobileDeviceKernelBench/source/mnn_dataset_test/response_60
+cfg_LLM: gpt-5
+
+# op info
+op_pymodel_foler_path: /home/zeezou/MNN/MobileDeviceKernelBench/source/mnn_dataset_test/model_60
+response_mod: read # read or gen
+
