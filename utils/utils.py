@@ -275,7 +275,7 @@ def register_op_mnn(code_block: dict, backup_dir: str|Path ,
 
     # If write failed, restore files
     if not ok:
-        restore_files(target_folder=target_folder)
+        restore_files(target_folder=target_folder,backup_dir=backup_dir)
 
     return ok
 
