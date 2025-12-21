@@ -4,9 +4,7 @@ from pathlib import Path
 import time
 
 OPENROUTER_KEY=os.environ.get("OPENROUTER_KEY") 
-            #"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"
 ALIYUN_KEY=os.environ.get("ALIYUN_KEY")
-            #"sk-90fdd16b2ff74530a1ee9e8ca168fc60"
 
 def parse_op_info_from_path(path_of_operator: str|Path):
     op_info = {}
