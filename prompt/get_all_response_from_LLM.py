@@ -91,7 +91,7 @@ def gen_all_response(
                                             py_folder=pyfolder,
                                         )
             
-            save_path = save_path_root / op_info["op_type"] /op_info["op_ctg"]/(op_info["op_name"]+".txt") 
+            save_path = save_path_root / model_name / op_info["op_type"] /op_info["op_ctg"]/(op_info["op_name"]+".txt") 
             if os.path.exists(save_path):
                 print(f"Skip existing file: {save_path}")
                 continue
